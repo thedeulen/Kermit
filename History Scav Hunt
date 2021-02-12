@@ -1,0 +1,36 @@
+<html>
+<body>
+
+<p>Enter the answer to receive the next clue</p>
+
+<form id="frm1" action="/action_page.php">
+  <input type="text" name="fname"><br>
+  <input type="button" onclick="myFunction()" value="Submit">
+</form>
+
+<script>
+document.getElementById("Submit").onclick = function() {myFunction()}
+
+function myFunction(){
+    prompt('Enter the answer to receive the next clue')
+  
+    if('History'){
+        alert('Well Done. Correct answer')
+      	alert('seek under the couch')
+    }
+  if('Congress'){
+        alert('Well Done. Correct answer')
+      	alert('seek under the couch')
+    }
+  if('Nixon'){
+        alert('Well Done. Correct answer')
+      	alert('take out the recycling')
+    }
+    else{
+        alert('Incorrect')
+    }
+
+</script>
+
+<body>
+<html>
